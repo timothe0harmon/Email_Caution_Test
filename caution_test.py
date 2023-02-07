@@ -35,7 +35,7 @@ def Send_Banner(color):
 
            if color == "yellow":
                if "Yellow" in subject:
-                   print("Sending Potentinally Unsafe E-mail")
+                   print("Sending Potentially Unsafe E-mail")
                    msg = f'Subject:{subject}\n\n{title_body[subject]}'
                    smtp.sendmail(gmail_email, recipient_email, msg)
 
